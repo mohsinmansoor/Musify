@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:alignmentMode="alignBounds"
+    android:columnCount="2"
+    android:rowOrderPreserved="false"
+    android:useDefaultMargins="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/now_playing"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:background="@drawable/now_playing_cover_3"
+        android:gravity="bottom"
+        android:text="@string/now_playing"
+        android:textAlignment="center"
+        android:textColor="#D7CCC8"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/jazz"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:background="@drawable/jazz_cover_2"
+        android:gravity="bottom"
+        android:text="@string/jazz_music"
+        android:textAlignment="center"
+        android:textColor="#D7CCC8"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/classical"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:background="@drawable/classical_cover_2"
+        android:gravity="bottom"
+        android:text="@string/classical_music"
+        android:textAlignment="center"
+        android:textColor="#D7CCC8"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/pop"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:background="@drawable/guitar_background"
+        android:gravity="bottom"
+        android:text="@string/pop_music"
+        android:textAlignment="center"
+        android:textColor="#D7CCC8"
+        android:textSize="32sp" />
+</GridLayout>

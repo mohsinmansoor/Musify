@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Musify</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="jazz_music">Jazz</string>
+    <string name="classical_music">Classical</string>
+    <string name="pop_music">Pop</string>
+    <string name="song_name_listview">Song Name</string>
+    <string name="artist_name_listview">Artist Name</string>
+</resources>
